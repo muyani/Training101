@@ -1,6 +1,9 @@
 sentence = "The dog finished the pie"
 # write a python program to answer below questions
 # 1.How many words are in the string.[OPTIONAL]
+convertToList = sentence.split()
+print(convertToList)
+print(len(convertToList))
 
 # 2.What is the length of string sentence
 print(len(sentence))
